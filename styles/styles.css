@@ -28,11 +28,20 @@ div.about-me-wrapper {
   flex-wrap: wrap;
 }
 
-div.about-me-wrapper > img.profile-picture {
+img.profile-picture {
   object-fit: cover;
+}
+
+div.about-me-wrapper > img.profile-picture {
   flex: 1 1 auto;
-  width: max(40%, 320px);
+  width: max(40%, 300px);
   z-index: 2;
+}
+
+footer > img.profile-picture {
+  margin-left: auto;
+  width: max(40%, 300px);
+  flex: 1 1 auto;
 }
 
 div.about-me-wrapper,
@@ -94,13 +103,6 @@ footer {
 div.contact-info {
   flex-basis: 200px;
   flex-grow: 1;
-}
-
-footer > img.profile-picture {
-  margin-left: auto;
-  flex-basis: 600px;
-  flex-shrink: 1;
-  max-width: 800px;
 }
 
 
