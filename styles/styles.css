@@ -3,12 +3,19 @@
   --secondary-color: white;
   --shadow-color: gray;
   --max-width: 1200px;
+  font-family: 'Roboto', sans-serif;
 }
 
 body,
 h1,
 h3 {
   margin: 0px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Geologica', sans-serif;
 }
 
 img.small-icon {
