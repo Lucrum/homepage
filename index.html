@@ -20,7 +20,7 @@
       </div>
       <div class="info soft-shadow">
         <h1>About me</h1>
-        <p>NYU Tandon class of 2023 and aspiring software developer. Fullstack experience with Ruby on Rails. Pictures are not of me, my email below is real. Check out my projects below!</p>
+        <p>NYU Tandon class of 2023 and aspiring software developer. Fullstack experience with Ruby on Rails. Pictures are not of me, but my email below is real. Check out my projects below!</p>
         <a href="https://github.com/Lucrum" target="_blank" rel="noopener noreferrer"><img src="assets/icons/github.svg" alt="" class="small-icon" id="personal-github"></a>
       </div>
     </div>
@@ -28,7 +28,16 @@
       <h2>My work</h2>
       <div class="projects-container">
         <div class="project">
-          <img src="assets/images/projects/arbornet.png" alt="">
+          <picture>
+            <source
+              media="(max-width: 1270px)"
+              srcset="assets/images/projects/arbornet-thin.png"
+            />
+            <img
+              src="assets/images/projects/arbornet.png"
+              alt="Screenshot of profile page on Arbornet"
+            />
+          </picture>
           <div class="project-description">
             <div class="project-header">
               <h3>Arbornet</h3>
@@ -67,7 +76,17 @@
           </div>
         </div>
         <div class="project">
-          <img src="assets/images/projects/sign-up-page.png" alt="">
+          <picture>
+            <source
+              media="(max-width: 1200px)"
+              srcset="assets/images/projects/sign-up-page-thin.png"
+            />
+            <img
+              src="assets/images/projects/sign-up-page.png"
+              alt="Screenshot of profile page on Arbornet"
+              class="centered"
+            />
+          </picture>
           <div class="project-description">
             <div class="project-header">
               <h3>Sign Up Form</h3>
