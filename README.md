@@ -1,4 +1,4 @@
-# odin-homepage
+# homepage
 
 A beautiful, responsive homepage featuring my projects!
 
